@@ -1,0 +1,31 @@
+/** Stylesheet normalized **/
+html,body{
+	height: 570px;
+	width: 240px;
+}
+
+body{}
+
+/** Headers **/
+h2,h3,h4{}
+h2{}
+h3{}
+h4{}
+
+/** Ticket classes **/
+.ticket-count{}
+.ticket-total-count{}
+.ticket-assigned-count{}
+.ticket-escalations-count{}
+
+/** Queue status **/
+.no-updates{}
+.new-update{}
+.urgent-update{}
+.status-loading{}
+
+/** Control Panel Styles **/
+.control-panel-button{
+	max-width: 60px;
+	font-size: 0.8em;
+}

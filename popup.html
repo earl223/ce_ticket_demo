@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ticket-o-tron 5000</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h3 id="content_header">Ticket-o-tron 5000&copy</h3>
+		<div id="content_wrapper">
+			<h3>Total: </h3><span id="total_tickets" class="ticket-count ticket-total-count">0</span>
+			<span id="total_ticket_status" class="ticket-status no-updates">No updates!</span>
+
+			<h3>Open: </h3><span id="open_tickets" class="ticket-count ticket-total-count">0</span>
+			<hr>
+			<h4>Assigned: </h4><span id="assigned_tickets" class="ticket-count ticket-assigned-count">0</span>
+			<h4>Unassigned: </h4><span id="unassigned_tickets" class="ticket-count ticket-assigned-count">0</span>
+			<h4>Consulted: </h4><span id="consulted_tickets" class="ticket-count ticket-assigned-count">0</span>
+			<hr>
+			<h4>Escalations: </h4><span id="escalations_tickets" class="ticket-count ticket-escalations-count">0</span>
+			<h4>P0: </h4><span id="p0_tickets" class="ticket-count ticket-escalations-count">0</span>
+			<h4>P1: </h4><span id="p1_tickets" class="ticket-count ticket-escalations-count">0</span>
+		</div>
+		<div id="control_panel">
+			<hr>
+			<button id="trigger_notification" class="control-panel-button" value="1">Trigger Notification</button>
+		</div>
+		<script src="jquery-3.4.1.min.js"></script>
+		<script src="popup.js"></script>
+	</body>
+</html>
